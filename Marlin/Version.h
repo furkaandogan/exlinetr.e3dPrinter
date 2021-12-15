@@ -32,7 +32,7 @@
 /**
  * Marlin release version identifier
  */
-#define SHORT_BUILD_VERSION "Ver 1.0.0.6-2.0.9.1"
+#define SHORT_BUILD_VERSION "Ver 1.0.0.7-2.0.9.1"
 //#define SHORT_BUILD_VERSION "2.0.9.1"
 
 /**

@@ -25,10 +25,14 @@
 // VENDOR VERSION EXAMPLE //
 ////////////////////////////
 
+#define MACHINE_SIZE "220x220x250"
+#define CORP_WEBSITE_C "www.exlinetr.com"
+#define CORP_WEBSITE_E "www.exlinetr.com"
+
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "2.0.9.3"
+#define SHORT_BUILD_VERSION "Ver 1.0.0.11-2.0.9.3"
 
 /**
  * Verbose version identifier which should contain a reference to the location
@@ -41,7 +45,7 @@
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-//#define STRING_DISTRIBUTION_DATE "2021-12-25"
+#define STRING_DISTRIBUTION_DATE "2022-04-30"
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
@@ -54,7 +58,7 @@
  * has a distinct Github fork— the Source Code URL should just be the main
  * Marlin repository.
  */
-//#define SOURCE_CODE_URL "github.com/MarlinFirmware/Marlin"
+#define SOURCE_CODE_URL "https://github.com/furkaandogan/exlinetr.e3dPrinter"
 
 /**
  * Default generic printer UUID.
@@ -65,7 +69,7 @@
  * The WEBSITE_URL is the location where users can get more information such as
  * documentation about a specific Marlin release.
  */
-//#define WEBSITE_URL "marlinfw.org"
+#define WEBSITE_URL "https://exlinetr.com"
 
 /**
  * Set the vendor info the serial USB interface, if changable

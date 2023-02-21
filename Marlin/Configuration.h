@@ -1234,7 +1234,7 @@
  */
 #define NOZZLE_TO_PROBE_OFFSET \
   {                            \
-    -42, -10, 0                \
+    -39, -7, 0                \
   }
 
 // Most probes should stay away from the edges of the bed, but
@@ -1620,7 +1620,7 @@
  */
 #define PREHEAT_BEFORE_LEVELING
 #if ENABLED(PREHEAT_BEFORE_LEVELING)
-#define LEVELING_NOZZLE_TEMP 120 // (°C) Only applies to E0 at this time
+#define LEVELING_NOZZLE_TEMP 170 // (°C) Only applies to E0 at this time
 #define LEVELING_BED_TEMP 50
 #endif
 
@@ -1670,7 +1670,7 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
 // Set the number of grid points per dimension.
-#define GRID_MAX_POINTS_X 3
+#define GRID_MAX_POINTS_X 2
 #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
 // Probe along the Y axis, advancing X after each column
@@ -2007,7 +2007,7 @@
  *   Caveats: The ending Z should be the same as starting Z.
  * Attention: EXPERIMENTAL. G-code arguments may change.
  */
-#define NOZZLE_CLEAN_FEATURE
+// #define NOZZLE_CLEAN_FEATURE
 
 #if ENABLED(NOZZLE_CLEAN_FEATURE)
 // Default number of pattern repetitions
